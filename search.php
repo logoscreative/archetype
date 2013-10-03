@@ -13,10 +13,6 @@
 	<div class="container">
  		<div class="row">
 
-			<?php if ( 'left_sidebar_layout' == $presentation_options['layout'] ) { ?>
-				<?php get_sidebar(); ?>
-			<?php } // end if ?>
-
 			<div id="main" class="col-md-12 clearfix" role="main">
 
 				<?php if( '' != get_query_var( 's' ) ) { ?>
@@ -48,10 +44,6 @@
 
 					<?php } // end if/else ?>
 				</div><!-- /#main -->
-
-				<?php if ( 'right_sidebar_layout' == $presentation_options['layout'] ) { ?>
-					<?php get_sidebar(); ?>
-				<?php } // end if ?>
 
 			<?php } // end if ?>
 

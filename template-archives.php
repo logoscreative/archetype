@@ -15,10 +15,6 @@
 	<div class="container">
 		<div class="row">
 
-			<?php if ( 'left_sidebar_layout' == $presentation_options['layout'] ) { ?>
-				<?php get_sidebar(); ?>
-			<?php } // end if ?>
-
 			<div id="main" class="col-md-12 clearfix" role="main">
 
 				<?php if ( have_posts() ) { ?>
@@ -152,10 +148,6 @@
 					<?php } // end while ?>
 				<?php } // end if ?>
 			</div><!-- /#main -->
-
-			<?php if ( 'right_sidebar_layout' == $presentation_options['layout'] ) {  ?>
-				<?php get_sidebar(); ?>
-			<?php } // end if ?>
 
 		</div><!--/ row -->
 	</div><!--/container -->
