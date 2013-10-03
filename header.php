@@ -14,8 +14,8 @@
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 		<title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
-        <link rel="shortcut icon" href="<?php echo apply_filters( 'archetype_shortcut_icon', '' ); ?>" />
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo apply_filters( 'archetype_touch_icon', '' ); ?>" />
+        <link rel="shortcut icon" href="<?php echo apply_filters( 'archetype_shortcut_icon', get_stylesheet_directory_uri() . '/assets/favicon.ico' ); ?>" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo apply_filters( 'archetype_touch_icon', get_stylesheet_directory_uri() . '/assets/touch-icon.png' ); ?>" />
 		<?php wp_head(); ?>
         <!--[if lt IE 9]>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
