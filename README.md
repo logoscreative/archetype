@@ -13,7 +13,7 @@ I've been using Standard Theme as a base for a while now. Knowing that there won
 
 I usually pair it with a litany of other plugins to add functionality as needed. One thing I love using with more savvy clients are these [Bootstrap shortcodes](https://github.com/logoscreative/bs-wp-shortcodes), which I've put into a plugin that I'm releasing now as well.
 
-I see Archetype helping folks in one or both of two ways: being a base for your child theme, or being a fork-able repo for your theme.
+I see Archetype helping folks in one or both of two ways: being a base for your child theme, or being a fork-able repo for your theme. **While this isn't a difficult theme to implement, it is certainly not plug-and-play.**
 
 ## Hooks ##
 
@@ -42,3 +42,9 @@ add_filter( 'archetype_brand', 'trogdor_custom_nav_logo' );
 ### archetype_search_action ###
 
 (string) Pass a custom URL for the form action; used in `searchform.php` (therefore, when you call `get_search_form()`)
+
+## Troubleshooting ##
+
+Please feel free to file an issue here if you find a bug, and I'll do my best to fix it if it betters the theme for everyone. I'll gladly review pull requests for new features, and will consider merging it—again if it betters the theme for everyone.
+
+**For the most part, this will be unsupported.** I'll do what I can, but don't expect much.
