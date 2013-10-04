@@ -48,3 +48,7 @@ add_filter( 'archetype_brand', 'trogdor_custom_nav_logo' );
 Please feel free to file an issue here if you find a bug, and I'll do my best to fix it if it betters the theme for everyone. I'll gladly review pull requests for new features, and will consider merging it—again if it betters the theme for everyone.
 
 **For the most part, this will be unsupported.** I'll do what I can, but don't expect much.
+
+## Child Theme Boilerplate ##
+
+I've also released a [child theme boilerplate](https://github.com/logoscreative/archetype-child) that'll get you started with LESS and Grunt.
