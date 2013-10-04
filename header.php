@@ -40,7 +40,7 @@
 				<?php
 				$options = array(
 					'container'       => false,
-					'menu_class'      => 'nav navbar-nav',
+					'menu_class'      => 'navbar-nav',
 					'items_wrap'      => '<ul id="%1$s" class="nav nav-menu %2$s">%3$s</ul>',
 					'fallback_cb'	  => null,
 					'walker'		  => new Archetype_Nav_Walker()
