@@ -11,10 +11,20 @@
 		<div id="footer" class="clearfix">
 			<div id="sub-floor" class="clearfix">
 				<div class="container">
-					<div class="row-fluid">
+					<div class="row">
 						<div class="col-md-12">
 							<div id="footer-links">
-								<?php wp_nav_menu(); ?>
+								<?php
+								$options = array(
+									'container'       => false,
+									'menu_class'      => 'nav-justified',
+									'items_wrap'      => '<ul id="%1$s" class="nav nav-menu %2$s">%3$s</ul>',
+									'fallback_cb'	  => null,
+									'depth'           => 1,
+									'walker'		  => new Archetype_Nav_Walker()
+								);
+
+								wp_nav_menu($options); ?>
 							</div><!-- /#footer-links -->
 
 							<div id="credit">
