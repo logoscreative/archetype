@@ -41,9 +41,13 @@ add_action( 'wp_enqueue_scripts', 'archetype_enqueue_bootstrap' );
  * Theme Support & Registration
  * ----------------------------------------------------------- */
 
-register_nav_menu( 'main', 'Main Menu' );
 add_theme_support( 'menus' );
 add_theme_support( 'post-thumbnails' );
+register_nav_menu( 'main', 'Main Menu' );
+register_sidebar(array(
+	'name' => __( 'Main Sidebar' ),
+	'id' => 'main-sidebar'
+));
 
 /* ----------------------------------------------------------- *
  * Menu Walker

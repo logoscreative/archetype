@@ -8,7 +8,7 @@
  */
 ?>
 <div id="sidebar" class="col-md-4">
-	<?php if ( ! dynamic_sidebar( 'sidebar-0' ) ) { ?>
+	<?php if ( ! dynamic_sidebar( 'main-sidebar' ) ) { ?>
 
 		<div class="widget">
 			<?php get_search_form(); ?>
