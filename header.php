@@ -18,8 +18,8 @@
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo apply_filters( 'archetype_touch_icon', get_stylesheet_directory_uri() . '/assets/touch-icon.png' ); ?>" />
 		<?php wp_head(); ?>
         <!--[if lt IE 9]>
+		<script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
-        <script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
     </head>
 	<body <?php body_class(); ?>>
