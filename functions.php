@@ -23,11 +23,6 @@ function archetype_enqueue_bootstrap() {
     wp_register_style( 'bootstrap-latest', '//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css' );
     wp_enqueue_style( 'bootstrap-latest' );
 
-	// We do this because Respond.js won't run on CDN files.
-	wp_register_style( 'bootstrap-ie8', get_stylesheet_directory() . '/assets/fallbacks/bootstrap.min.css' );
-	$GLOBALS['wp_styles']->add_data( 'bootstrap-ie8', 'conditional', 'lte IE 8' );
-	wp_enqueue_style( 'bootstrap-ie8' );
-
     wp_register_script( 'bootstrap-latest', '//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js', array( 'jquery' ) );
     wp_enqueue_script( 'bootstrap-latest' );
 

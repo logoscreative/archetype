@@ -20,6 +20,9 @@
         <!--[if lt IE 9]>
 		<script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+		<link href="http://netdna.bootstrapcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+		<link href="<?php echo get_template_directory_uri() . '/cross-domain/respond.proxy.gif'; ?>" id="respond-redirect" rel="respond-redirect" />
+		<script src="<?php echo get_template_directory_uri() . '/cross-domain/respond.proxy.js'; ?>"></script>
         <![endif]-->
     </head>
 	<body <?php body_class(); ?>>
