@@ -18,13 +18,13 @@
 
 			<?php if( '' != get_previous_post() ) { ?>
 				<li class="previous">
-					<?php previous_post_link( '<span class="previous-page">%link</span>', __( '<i class="icon-chevron-left"></i>', 'archetype' ) . '&nbsp;' . get_previous_post()->post_title ); ?>
+					<?php previous_post_link( '<span class="previous-page">%link</span>', __( '<i class="fa fa-chevron-left"></i>', 'archetype' ) . '&nbsp;' . get_previous_post()->post_title ); ?>
 				</li>
 			<?php } // end if ?>
 
 			<?php if( '' != get_next_post() ) { ?>
 				<li class="next">
-				<?php next_post_link( '<span class="no-previous-page-link next-page">%link</span>', '&nbsp;' . get_next_post()->post_title . __( '<i class="icon-chevron-right"></i>', 'archetype' ) ); ?>
+				<?php next_post_link( '<span class="no-previous-page-link next-page">%link</span>', '&nbsp;' . get_next_post()->post_title . __( '<i class="fa fa-chevron-right"></i>', 'archetype' ) ); ?>
 				</li>
 			<?php } // end if ?>
 		</ul>
@@ -37,13 +37,13 @@
 
 			<?php if( get_next_posts_link() ) { ?>
 				<li class="previous">
-					<?php next_posts_link( __( '<span class="nav-previous meta-nav"><i class="icon-chevron-left"></i> Older</span>', 'archetype' ) ); ?>
+					<?php next_posts_link( __( '<span class="nav-previous meta-nav"><i class="fa fa-chevron-left"></i> Older</span>', 'archetype' ) ); ?>
 				</li>
 			<?php } // end if ?>
 
 			<?php if( get_previous_posts_link() ) { ?>
 				<li class="next">
-					<?php previous_posts_link( __( '<span class="nav-next meta-nav">Newer <i class="icon-chevron-right"></i></span>', 'archetype' ) ); ?>
+					<?php previous_posts_link( __( '<span class="nav-next meta-nav">Newer <i class="fa fa-chevron-right"></i></span>', 'archetype' ) ); ?>
 				</li>
 			<?php } // end if ?>
 

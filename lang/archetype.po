@@ -683,22 +683,22 @@ msgid "%1$s"
 msgstr ""
 
 #: ../pagination.php:21
-msgid "<i class=\"icon-chevron-left\"></i>"
+msgid "<i class=\"fa fa-chevron-left\"></i>"
 msgstr ""
 
 #: ../pagination.php:27
-msgid "<i class=\"icon-chevron-right\"></i>"
+msgid "<i class=\"fa fa-chevron-right\"></i>"
 msgstr ""
 
 #: ../pagination.php:40
 msgid ""
-"<span class=\"nav-previous meta-nav\"><i class=\"icon-chevron-left\"></i> "
+"<span class=\"nav-previous meta-nav\"><i class=\"fa fa-chevron-left\"></i> "
 "Older</span>"
 msgstr ""
 
 #: ../pagination.php:46
 msgid ""
-"<span class=\"nav-next meta-nav\">Newer <i class=\"icon-chevron-right\"></"
+"<span class=\"nav-next meta-nav\">Newer <i class=\"fa fa-chevron-right\"></"
 "i></span>"
 msgstr ""
 

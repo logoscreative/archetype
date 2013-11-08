@@ -75,10 +75,10 @@
 
 											<ul id="archives-post-pager" class="pager">
 												<li class="previous">
-													<?php previous_posts_link( '<i class="icon-chevron-left"></i> Previous Posts', $post_query->max_num_pages ); ?>
+													<?php previous_posts_link( '<i class="fa fa-chevron-left"></i> Previous Posts', $post_query->max_num_pages ); ?>
 												</li>
 												<li class="next">
-													<?php next_posts_link( 'Next Posts <i class="icon-chevron-right"></i>', $post_query->max_num_pages ); ?>
+													<?php next_posts_link( 'Next Posts <i class="fa fa-chevron-right"></i>', $post_query->max_num_pages ); ?>
 												</li>
 											</ul><!-- /.pager -->
 

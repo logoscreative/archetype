@@ -30,10 +30,10 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && 'comments.php' == basename( $_SER
             </ol>
             <div class="comment-navigation clearfix">
                 <div class="comment-prev-nav">
-                    <?php previous_comments_link( '<i class="icon-chevron-left"></i>' . __( 'Previous Comments', 'archetype' ) ); ?>
+                    <?php previous_comments_link( '<i class="fa fa-chevron-left"></i>' . __( 'Previous Comments', 'archetype' ) ); ?>
                 </div>
                 <div class="comment-next-nav">
-                    <?php next_comments_link( __( 'Next Comments', 'archetype' ) . '<i class="icon-chevron-right"></i>'); ?>
+                    <?php next_comments_link( __( 'Next Comments', 'archetype' ) . '<i class="fa fa-chevron-right"></i>'); ?>
                 </div>
             </div>
         </div><!-- /#comments -->
