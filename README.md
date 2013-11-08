@@ -4,8 +4,8 @@
 
 Includes:
 
-1. [Bootstrap 3.0](http://getbootstrap.com/)
-1. [Font Awesome 3.2.1](http://fortawesome.github.io/Font-Awesome/)
+1. [Bootstrap 3.0.2](http://getbootstrap.com/)
+1. [Font Awesome 4.0.3](http://fortawesome.github.io/Font-Awesome/)
 
 ## Why? ##
 
