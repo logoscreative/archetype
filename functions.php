@@ -20,10 +20,10 @@ add_action( 'after_setup_theme', 'archetype_set_theme_localization' );
 
 function archetype_enqueue_bootstrap() {
 
-    wp_register_style( 'bootstrap-latest', '//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css' );
+    wp_register_style( 'bootstrap-latest', '//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css' );
     wp_enqueue_style( 'bootstrap-latest' );
 
-    wp_register_script( 'bootstrap-latest', '//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js', array( 'jquery' ) );
+    wp_register_script( 'bootstrap-latest', '//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js', array( 'jquery' ) );
     wp_enqueue_script( 'bootstrap-latest' );
 
     wp_register_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' );
