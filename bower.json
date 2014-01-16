@@ -1,12 +1,12 @@
 {
   "name": "archetype",
-  "version": "1.0",
-  "homepage": "https://github.com/logoscreative/archetype-genesis",
+  "version": "1.0.3",
+  "homepage": "http://logoscreative.co/archetype",
   "authors": [
     "Cliff Seal <cliff@logos-creative.com>"
   ],
-  "description": "Archetype theme, built as a Genesis Child theme",
-  "main": "assets/theme.css",
+  "description": "Forked from the now retired Standard Theme by 8BIT, Archetype serves as a SEO-friendly, fast-loading, Bootstrap-powered foundation for your new theme.",
+  "main": "style.css",
   "license": "GNU General Public License v3.0",
   "private": true,
   "ignore": [
