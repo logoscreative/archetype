@@ -49,6 +49,12 @@ Please feel free to file an issue here if you find a bug, and I'll do my best to
 
 **For the most part, this will be unsupported.** I'll do what I can, but don't expect much.
 
+## Constants ##
+
+### ARCHETYPE_ENQUEUE ###
+
+By default, Archetype pulls Bootstrap and Font Awesome files from [Bootstrap CDN](http://www.bootstrapcdn.com/). To use local resources, you'll use [Bower](http://bower.io/). Once it's installed (`npm install -g bower`), run `bower install` in Archetype's root directory to automatically install the dependencies. Then, place `define( 'ARCHETYPE_ENQUEUE', 'bower' );` in your `wp-config.php` file to enqueue those files instead.
+
 ## Child Theme Boilerplate ##
 
 I've also released a [child theme boilerplate](https://github.com/logoscreative/archetype-child) that'll get you started with LESS and Grunt.
