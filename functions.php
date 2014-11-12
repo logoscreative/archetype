@@ -54,8 +54,11 @@ add_action( 'wp_enqueue_scripts', 'archetype_enqueue_bootstrap' );
 
 function archetype_head_markup() {
 
+	// Favicon
+	$output = '<link rel="shortcut icon" href="' . apply_filters( 'archetype_shortcut_icon', get_stylesheet_directory_uri() . '/assets/favicon.ico' ) . '" />';
+
 	// Touch Icon
-	$output = '<link rel="apple-touch-icon-precomposed" sizes="144x144" href="' . apply_filters( 'archetype_touch_icon', get_stylesheet_directory_uri() . '/assets/dist/img/touch-icon.png' ) . '" />';
+	$output .= '<link rel="apple-touch-icon-precomposed" sizes="144x144" href="' . apply_filters( 'archetype_touch_icon', get_stylesheet_directory_uri() . '/assets/dist/img/touch-icon.png' ) . '" />';
 
 	if ( !defined('ARCHETYPE_ENQUEUE') ) {
 
