@@ -1,6 +1,6 @@
 {
   "name": "archetype",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "http://logoscreative.co/archetype",
   "authors": [
     "Cliff Seal <cliff@logos-creative.com>"
@@ -17,7 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.1.0",
-    "font-awesome": "~4.0.3"
+    "bootstrap": "~3.3.0",
+    "font-awesome": "~4.2.0"
   }
 }

@@ -22,13 +22,13 @@ function archetype_enqueue_bootstrap() {
 
 	if ( !defined('ARCHETYPE_ENQUEUE') ) {
 
-		wp_register_style( 'bootstrap-latest', '//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css' );
+		wp_register_style( 'bootstrap-latest', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css' );
 		wp_enqueue_style( 'bootstrap-latest' );
 
-		wp_register_script( 'bootstrap-latest', '//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js', array( 'jquery' ) );
+		wp_register_script( 'bootstrap-latest', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js', array( 'jquery' ) );
 		wp_enqueue_script( 'bootstrap-latest' );
 
-		wp_register_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' );
+		wp_register_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' );
 		wp_enqueue_style( 'font-awesome' );
 
 	} elseif ( defined('ARCHETYPE_ENQUEUE') && ARCHETYPE_ENQUEUE === 'bower' ) {
