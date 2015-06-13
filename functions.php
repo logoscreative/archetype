@@ -22,25 +22,17 @@ function archetype_enqueue_bootstrap() {
 
 	if ( !defined('ARCHETYPE_ENQUEUE') ) {
 
-		wp_register_style( 'bootstrap-latest', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css' );
-		wp_enqueue_style( 'bootstrap-latest' );
+		wp_enqueue_style( 'bootstrap-latest', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' );
 
-		wp_register_script( 'bootstrap-latest', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js', array( 'jquery' ) );
-		wp_enqueue_script( 'bootstrap-latest' );
+		wp_enqueue_script( 'bootstrap-latest', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js', array( 'jquery' ) );
 
-		wp_register_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' );
-		wp_enqueue_style( 'font-awesome' );
+		wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
 
 	} elseif ( defined('ARCHETYPE_ENQUEUE') && ARCHETYPE_ENQUEUE === 'bower' ) {
 
-		wp_register_style( 'bootstrap-latest', get_template_directory_uri() . '/bower_components/bootstrap/dist/css/bootstrap.min.css' );
-		wp_enqueue_style( 'bootstrap-latest' );
+		wp_enqueue_style( 'archetype-styles', get_stylesheet_directory_uri() . '/assets/dist/css/main.min.css' );
 
-		wp_register_script( 'bootstrap-latest', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.min.js', array( 'jquery' ) );
-		wp_enqueue_script( 'bootstrap-latest' );
-
-		wp_register_style( 'font-awesome', get_template_directory_uri() . '/bower_components/font-awesome/css/font-awesome.min.css' );
-		wp_enqueue_style( 'font-awesome' );
+		wp_enqueue_script( 'archetype-scripts', get_stylesheet_directory_uri() . '/assets/dist/js/scripts.min.js', array('jquery'), false, true );
 
 	}
 

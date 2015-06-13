@@ -1,0 +1,31 @@
+{
+  "name": "archetype",
+  "version": "1.0.7",
+  "description": "Archetype theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logoscreative/archetype"
+  },
+  "bugs": {
+    "url": "https://github.com/logoscreative/archetype/issues"
+  },
+  "author": "Logos Creative",
+  "homepage": "http://logoscreative.co",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-autoprefixer": "^0.6.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.8.0",
+    "grunt-contrib-less": "^0.9.0",
+    "grunt-contrib-uglify": "^0.3.3",
+    "grunt-contrib-watch": "^0.5.3",
+    "grunt-imageoptim": "~1.4.1",
+    "grunt-recess": "^0.5.1",
+    "grunt-version": "^0.3.3"
+  }
+}
