@@ -55,7 +55,7 @@ When you use the Bower option, [Grunt](http://gruntjs.com/) lints and compiles L
 
 You're probably building a WordPress theme and not an application. As such, you probably don't need 100% of what Bootstrap is offering. Cut down on your file sizes by using the `ARCHETYPE_ENQUEUE` functionality and editing the development files to suit your project.
 
-1. In `Gruntfile.js`, under `uglify->build->src`, delete `bower_components/bootstrap/dist/js/bootstrap.js` as the source and invidually add the files in `bower_components/bootstrap/dist/js` that you need.
+1. In `Gruntfile.js`, under `uglify->build->src`, delete `bower_components/bootstrap/dist/js/bootstrap.js` as the source and invidually add the files in `bower_components/bootstrap/js` that you need.
 1. In `main.less`, delete `@import "../../../bower_components/bootstrap/less/bootstrap.less";` and add the files in `bower_components/bootstrap/less` that you need. You can copy the contents of `bower_components/bootstrap/less/bootstrap.less` and add them to the top of your `main.less` file, removing the imported files you no longer need.
 
 ## Troubleshooting ##
